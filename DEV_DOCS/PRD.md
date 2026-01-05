@@ -17,6 +17,7 @@ Egy egyszeru, gyorsan hasznalhato, csaladi fokuszu PWA-t tervezunk, amely segit 
 ## 4. Fobb funkciok (MVP)
 - Regisztracio es bejelentkezes (email + jelszo)
 - Csaladi haztartas letrehozas, egyszeru meghivo link vagy QR-kod alapjan csatlakozas csaladtagoknak
+- Szerepkorok: owner / editor / viewer (haztartason beluli jogosultsagok)
 - Koltsegek rogzitese: manualis + blokk foto feltoltes
 - AI tamogatott blokk feldolgozas: tetelnev, datum, osszeg, elado, es kategoriak javaslata
 - Kategoriak: testreszabhato (pl. elelmiszer, kozlekedes, lakas, stb.) csaladi szinten
@@ -29,7 +30,6 @@ Egy egyszeru, gyorsan hasznalhato, csaladi fokuszu PWA-t tervezunk, amely segit 
 - Ismetlodo kiadasok kezelese
 - CSV export
 - AI tamogatott megtakaritasi javaslatok (anonimizalt trend alapjan)
-- Csaladtagi profilok (gyerek mod, csak rogzites, limitelt nezeti jog)
 
 ## 6. Folyamatok
 ### 6.1. Koltseg rogzites blokkal
@@ -51,7 +51,7 @@ Egy egyszeru, gyorsan hasznalhato, csaladi fokuszu PWA-t tervezunk, amely segit 
 - Frontend: Vanilla JS + Chart.js vagy ApexCharts
 - Adatbazis: MySQL / MariaDB
 - PWA: Service Worker, offline cache, push ertesites kesobb
-- AI blokk feldolgozas: kulso OCR szolgaltatas (pl. Google Vision, AWS Textract, vagy Tesseract) + sajat parsing logika
+- AI blokk feldolgozas: self-hosted OCR (Tesseract) + sajat parsing logika
 
 ## 8. Adatmodell (tervezet)
 - users: id, email, password, created_at
@@ -68,10 +68,8 @@ Egy egyszeru, gyorsan hasznalhato, csaladi fokuszu PWA-t tervezunk, amely segit 
 - Gyors uj koltseg gomb
 - Grafikon blokkok a fo oldalon
 
-## 10. Open Questions
-- Melyik OCR/AI szolgaltatast preferalod (sajat Tesseract vs. felhos)?
-- Milyen legyen a csaladtagok jogosultsaga (teljes, rogzito, csak nezo)?
-- Szeretnel-e automatikus bankszinkront kesobb?
+## 10. Kesesbi lehetosegek
+- Banki szinkron kesobbi merlegelessel (nem resze az MVP-nek).
 
 ## 11. Meres es analitika
 - Heti aktiv felhasznalok (WAU)
