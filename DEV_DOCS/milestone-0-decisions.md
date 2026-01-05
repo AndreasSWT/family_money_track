@@ -3,6 +3,10 @@
 ## Summary
 This document records the core scope and technical decisions for Milestone 0.
 
+## Approval
+- Approved by: project owner (AndreasSWT)
+- Date: 2026-01-05
+
 ## Decisions
 1) OCR provider: self-hosted Tesseract only.
    - Rationale: no cloud use, full data control, predictable cost.

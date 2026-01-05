@@ -20,6 +20,7 @@ Goal: lock scope and technical decisions so development can start without rework
 - [x] Update `DEV_DOCS/PRD.md` to reflect scope lock.
 - [x] Confirm DB schema changes (no changes required).
 - [x] Update `.env.example` with OCR-specific keys.
+- [x] Record owner sign-off.
 
 ## 4) Tasks
 1. Review PRD open questions and gather constraints (cost, privacy, hosting).

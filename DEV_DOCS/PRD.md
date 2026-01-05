@@ -30,7 +30,6 @@ Egy egyszeru, gyorsan hasznalhato, csaladi fokuszu PWA-t tervezunk, amely segit 
 - Ismetlodo kiadasok kezelese
 - CSV export
 - AI tamogatott megtakaritasi javaslatok (anonimizalt trend alapjan)
-- Csaladtagi profilok (gyerek mod, csak rogzites, limitelt nezeti jog)
 
 ## 6. Folyamatok
 ### 6.1. Koltseg rogzites blokkal
@@ -69,8 +68,8 @@ Egy egyszeru, gyorsan hasznalhato, csaladi fokuszu PWA-t tervezunk, amely segit 
 - Gyors uj koltseg gomb
 - Grafikon blokkok a fo oldalon
 
-## 10. Nyitott kerdesek
-- MVP-ben nincs banki szinkron; kesobb merlegelheto.
+## 10. Kesesbi lehetosegek
+- Banki szinkron kesobbi merlegelessel (nem resze az MVP-nek).
 
 ## 11. Meres es analitika
 - Heti aktiv felhasznalok (WAU)
