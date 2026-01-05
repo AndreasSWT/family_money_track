@@ -29,6 +29,3 @@ composer.phar
 # Temporary
 *.tmp
 *.swp
-
-# Docs
-DEV_DOCS/AGENTS.md
