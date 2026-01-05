@@ -1,0 +1,31 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# PHP / Composer
+/vendor/
+composer.phar
+
+# Logs
+*.log
+
+# Node / Frontend
+/node_modules/
+/public/build/
+/dist/
+
+# Test / Coverage
+/coverage/
+
+# Temporary
+*.tmp
+*.swp
