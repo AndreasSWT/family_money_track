@@ -51,7 +51,7 @@ Egy egyszeru, gyorsan hasznalhato, csaladi fokuszu PWA-t tervezunk, amely segit 
 - Frontend: Vanilla JS + Chart.js vagy ApexCharts
 - Adatbazis: MySQL / MariaDB
 - PWA: Service Worker, offline cache, push ertesites kesobb
-- AI blokk feldolgozas: kulso OCR szolgaltatas (pl. Google Vision, AWS Textract, vagy Tesseract) + sajat parsing logika
+- AI blokk feldolgozas: self-hosted OCR (Tesseract) + sajat parsing logika
 
 ## 8. Adatmodell (tervezet)
 - users: id, email, password, created_at
@@ -69,7 +69,6 @@ Egy egyszeru, gyorsan hasznalhato, csaladi fokuszu PWA-t tervezunk, amely segit 
 - Grafikon blokkok a fo oldalon
 
 ## 10. Open Questions
-- Melyik OCR/AI szolgaltatast preferalod (sajat Tesseract vs. felhos)?
 - Milyen legyen a csaladtagok jogosultsaga (teljes, rogzito, csak nezo)?
 - Szeretnel-e automatikus bankszinkront kesobb?
 
