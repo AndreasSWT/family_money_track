@@ -17,6 +17,7 @@ Egy egyszeru, gyorsan hasznalhato, csaladi fokuszu PWA-t tervezunk, amely segit 
 ## 4. Fobb funkciok (MVP)
 - Regisztracio es bejelentkezes (email + jelszo)
 - Csaladi haztartas letrehozas, egyszeru meghivo link vagy QR-kod alapjan csatlakozas csaladtagoknak
+- Szerepkorok: owner / editor / viewer (haztartason beluli jogosultsagok)
 - Koltsegek rogzitese: manualis + blokk foto feltoltes
 - AI tamogatott blokk feldolgozas: tetelnev, datum, osszeg, elado, es kategoriak javaslata
 - Kategoriak: testreszabhato (pl. elelmiszer, kozlekedes, lakas, stb.) csaladi szinten
@@ -68,9 +69,8 @@ Egy egyszeru, gyorsan hasznalhato, csaladi fokuszu PWA-t tervezunk, amely segit 
 - Gyors uj koltseg gomb
 - Grafikon blokkok a fo oldalon
 
-## 10. Open Questions
-- Milyen legyen a csaladtagok jogosultsaga (teljes, rogzito, csak nezo)?
-- Szeretnel-e automatikus bankszinkront kesobb?
+## 10. Nyitott kerdesek
+- MVP-ben nincs banki szinkron; kesobb merlegelheto.
 
 ## 11. Meres es analitika
 - Heti aktiv felhasznalok (WAU)

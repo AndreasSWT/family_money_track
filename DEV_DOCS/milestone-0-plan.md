@@ -6,16 +6,22 @@ Goal: lock scope and technical decisions so development can start without rework
 - OCR provider: self-hosted (Tesseract).
 - Roles: owner / editor / viewer (permissions matrix).
 - Data privacy: receipt image retention, raw OCR storage policy, export/delete rules.
-- Hosting baseline: PHP runtime, MySQL version, storage (local vs. S3).
-- Offline sync: conflict strategy (last write wins + audit note).
+- Hosting baseline: PHP runtime, MySQL version, local storage only.
+- Offline sync: conflict strategy (last write wins).
 
 ## 2) Deliverables
-- Decision log (1 page) with rationale for each choice.
+- Decision log with rationale for each choice.
 - Updated `DEV_DOCS/PRD.md` (Open Questions resolved).
 - Updated `DATABASE/DB.sql` if any schema changes are required.
 - `.env.example` updated with final provider/config keys.
 
-## 3) Tasks
+## 3) Progress
+- [x] Document decisions in `DEV_DOCS/milestone-0-decisions.md`.
+- [x] Update `DEV_DOCS/PRD.md` to reflect scope lock.
+- [x] Confirm DB schema changes (no changes required).
+- [x] Update `.env.example` with OCR-specific keys.
+
+## 4) Tasks
 1. Review PRD open questions and gather constraints (cost, privacy, hosting).
 2. Document self-hosted OCR setup requirements (Tesseract versions, language packs).
 3. Define roles and permissions matrix.
@@ -23,10 +29,10 @@ Goal: lock scope and technical decisions so development can start without rework
 5. Confirm deployment target assumptions (PHP 8.4, MySQL 8+).
 6. Apply documentation updates and tag milestone completion.
 
-## 4) Acceptance criteria
+## 5) Acceptance criteria
 - All open questions in PRD are resolved and documented.
 - Provider/role/retention decisions are signed off by owner.
 - No blocking unknowns remain for Milestone 1 work.
 
-## 5) Suggested timeline
+## 6) Suggested timeline
 - 1-2 working days total, depending on OCR provider evaluation.
